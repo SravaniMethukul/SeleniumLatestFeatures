@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v134.emulation.Emulation;
+import org.openqa.selenium.devtools.v122.emulation.Emulation;
 
 public class cdpCommandsTest {
 
@@ -35,6 +35,8 @@ public class cdpCommandsTest {
 		Thread.sleep(3000);
 
 		driver.findElement(By.linkText("Library")).click();
+		
+		driver.close();
 	}
 
 }

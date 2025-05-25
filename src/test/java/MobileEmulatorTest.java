@@ -3,7 +3,7 @@ import java.util.Optional;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v134.emulation.Emulation;
+import org.openqa.selenium.devtools.v123.emulation.Emulation;
 
 public class MobileEmulatorTest {
 
